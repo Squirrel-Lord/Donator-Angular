@@ -21,13 +21,15 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MakeDonationComponent } from './make-donation/make-donation.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DonationDetailComponent,
     HomeComponent,
-    MakeDonationComponent
+    MakeDonationComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
