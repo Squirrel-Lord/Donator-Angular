@@ -22,6 +22,8 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MakeDonationComponent } from './make-donation/make-donation.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ReceiverComponent } from './receiver/receiver.component';
+import { HelpComponent } from './help/help.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     DonationDetailComponent,
     HomeComponent,
     MakeDonationComponent,
-    NavbarComponent
+    NavbarComponent,
+    ReceiverComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,

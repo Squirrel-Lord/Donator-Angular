@@ -5,9 +5,9 @@ import { HomeComponent } from './home/home.component';
 import { MakeDonationComponent } from './make-donation/make-donation.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
   { path: 'donation-details', component: DonationDetailComponent },
-  { path: 'make-donation', component: MakeDonationComponent }
+  { path: 'make-donation', component: MakeDonationComponent },
+  {path: '', redirectTo: '/donation-details', pathMatch: 'full'},
 ];
 
 @NgModule({
